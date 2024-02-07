@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view"
+    >
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:title="General">
+
+            <menu>
+                <item
+                    android:id="@+id/nav_home"
+                    android:title="Home"/>
+
+                <item
+                    android:id="@+id/nav_search"
+                    android:title="Search"/>
+            </menu>
+
+        </item>
+
+        <item
+            android:id="@+id/nav_account"
+            android:title="Account">
+
+            <menu>
+                <item
+                    android:id="@+id/nav_login"
+                    android:title="Login"/>
+
+                <item
+                    android:id="@+id/nav_signup"
+                    android:title="Signup"/>
+            </menu>
+
+        </item>
+
+        <item
+            android:id="@+id/nav_server"
+            android:title="Server"/>
+        <item
+            android:id="@+id/nav_settings"
+            android:title="Settings"/>
+
+        <item
+            android:id="@+id/nav_about"
+            android:title="About"/>
+
+    </group>
+
+</menu>
+
+

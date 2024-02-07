@@ -1,0 +1,29 @@
+DataBase Queries:
+1. Database:
+    create database Book_Exchange_Application;
+2. Tables:
+    1. User Profile Table:
+        create table UserProfile(
+                   UserId varchar(25) primary key,
+                   Name varchar(30) not null unique,
+                   Address varchar(50) not null,
+                   JoinedDate date default sysdate(),
+                   ReputationScore int default 0,
+                   ContactNo varchar(15),
+                   EmailId varchar(50) not null unique
+               );
+       insert into UserProfile(userid,name,Address,ContactNo,Emailid) values('user1','user','india',9566816169,'Venki@gmail.com');
+
+    2. User Authentication Table:
+        create table userAuth(
+                            Name varchar(30) primary key,
+                            Password varchar(30) not null,
+                            EmailId varchar(50) unique not null,
+                            foreign key(EmailId) REFERENCES UserProfile(EmailId),
+                            foreign key(Name) REFERENCES UserProfile(Name)
+                        );
+
+        insert into userAuth  values('user2','1234568','Venki@gmail.com');
+        select passWord from userAuthentication where userName ='user1';
+   3. Books Table:
+        create table Books(userID varchar(50),BookID varchar(50) PRIMARY KEY,Name varchar(100),ISBN varchar(40),Genre varchar(50),Author varchar(50),Edition varchar(50),PurchaseDate date,Language varchar(50),copycount int(10),bkcondition varchar(40),foreign key(UserId) references userprofile(UserId));

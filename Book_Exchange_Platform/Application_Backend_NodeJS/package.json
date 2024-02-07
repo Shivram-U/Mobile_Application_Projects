@@ -1,0 +1,25 @@
+{
+  "name": "book_exchange_application_server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "Server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "date-fns": "^3.3.1",
+    "dotenv": "^16.4.1",
+    "express": "^4.18.2",
+    "fs": "^0.0.1-security",
+    "hbs": "^4.2.0",
+    "http": "^0.0.1-security",
+    "mysql": "^2.18.1",
+    "mysql2": "^3.9.1",
+    "nodemon": "^3.0.3",
+    "url": "^0.11.3"
+  }
+}

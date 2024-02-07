@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="DatePickerStyle" parent="Widget.MaterialComponents.Button.UnelevatedButton">
+        <item name="android:textColorPrimary">@color/white</item>
+    </style>
+    <style name="CustomDatePicker" parent="@android:style/Widget.DatePicker">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:datePickerMode">spinner</item>
+        <item name="android:calendarTextColor">#00FFFF</item>
+        <item name="android:backgroundTint">#eeeeee</item>
+        <item name="android:dayOfWeekBackground">#000000</item>
+        <item name="android:headerBackground">#000000</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:fontFamily">@font/helvetica</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:hint">Purchase Date</item>
+        <item name="android:inputType">none</item>
+        <item name="android:textColorHint">#777777</item>
+    </style>
+</resources>

@@ -1,0 +1,11 @@
+Modules:
+    express
+    dotenv
+    mysql
+    mysql2
+    hbs
+    bcryptjs
+    nodemon
+    http
+    url
+    fs

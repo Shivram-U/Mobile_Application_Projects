@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:gravity="center"
+    android:paddingTop="1dp"
+    android:paddingBottom="1dp"
+    android:layout_gravity="center"
+    android:background="@drawable/bottom_border"
+    android:backgroundTint="@color/white"
+    >
+
+    <TextView
+        android:id="@+id/t1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="15"
+        android:background="@color/black"
+        android:editable="false"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingTop="15dp"
+        android:paddingBottom="15dp"
+        android:fontFamily="@font/helvetica"
+        android:gravity="center"
+        android:text="Book Identity"
+        android:textColor="@color/white"
+        android:textSize="18dp" />
+
+    <TextView
+        android:id="@+id/t2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="15"
+        android:background="@color/black"
+        android:editable="false"
+        android:fontFamily="@font/helvetica"
+        android:gravity="center"
+        android:text="Book Identity"
+        android:textColor="@color/cyan"
+        android:textSize="13dp" />
+    <ImageButton
+        android:id="@+id/b1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="23"
+        android:padding="5dp"
+        android:layout_margin="0dp"
+        android:background="@color/blacks"
+        android:scaleType="fitCenter"
+        android:src="@drawable/rightarrow" />
+</LinearLayout>

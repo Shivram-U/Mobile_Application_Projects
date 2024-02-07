@@ -1,0 +1,6 @@
+Commands:
+    1. npm init
+    2. npm init -y
+    3. npm i express mysql dotenv hbs bcryptjs
+    -> creates a node_modules Dir in the PWD, which stores the Node Modules[express,mysql,dotenv,hbs,bcryptjs].
+    4. npm i --save nodemon

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="NavigationItemTextStyle">
+    <!-- Font Family -->
+    <item name="android:fontFamily">@font/helvetica</item>
+
+    <!-- Text Color -->
+    <item name="android:textColor">@color/white</item>
+
+    <!-- Text Size -->
+    <item name="android:textSize">16dp</item> <!-- Adjust the size as needed -->
+    </style>
+    <style name="NavigationViewGroupHeadingStyle">
+        <!-- Font Family -->
+        <item name="android:fontFamily">@font/helvetica</item>
+
+        <!-- Text Color -->
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textStyle">bold</item>
+        <!-- Text Size -->
+        <item name="android:textSize">18sp</item> <!-- Adjust the size as needed -->
+
+        <!-- Other custom attributes for group headings -->
+    </style>
+
+</resources>

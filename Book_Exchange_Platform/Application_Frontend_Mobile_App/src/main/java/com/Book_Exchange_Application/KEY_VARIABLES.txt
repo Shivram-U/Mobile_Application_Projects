@@ -1,0 +1,2 @@
+Key Variables:
+    1.LOG : Boolean
